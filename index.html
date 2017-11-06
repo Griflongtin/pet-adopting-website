@@ -8,6 +8,90 @@
     <title></title>
   </head>
   <body>
+    <div class="container">
 
+
+
+
+
+
+
+      <div id="pet-input">
+        <form id="pet-input-form">
+          <div class="form-group">
+            <label for="pet-name">Pet name</label>
+            <input type="text" class="form-control" id="pet-name" placeholder="Pet's Name">
+          </div>
+          <div class="form-group">
+            <label for="pet-age">Pet age</label>
+            <input type="number" class="form-control" id="pet-age" placeholder="Pet's Age (rounded to nearest year)">
+          </div>
+          <div class="form-group">
+            <label for="animal-type">Animal style</label>
+            <select class="form-control" id="animal-type">
+              <option>Cat</option>
+              <option>Dog</option>
+              <option>Bird</option>
+              <option>Turtle</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="adoption-status">Pet adoption status</label>
+            <select class="form-control" id="adoption-status">
+              <option value="1">Available</option>
+              <option value="2">Adopted</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="pet-description">Pet description</label>
+            <textarea class="form-control" id="pet-description" rows="5"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="owner-name">Who to contact</label>
+            <input type="text" class="form-control" id="owner-name" placeholder="Who to contact">
+          </div>
+          <div class="form-group">
+            <label for="owner-email">Contact email address</label>
+            <input type="email" class="form-control" id="owner-email" placeholder="name@example.com">
+          </div>
+          <input class="btn btn-primary" type="submit" value="House My Fur Friend">
+        </form>
+      </div><!--close pet input div>-->
+
+
+      <div id="adopter-input">
+        <form id="adopter-input-form">
+          <div class="form-group">
+            <label for="adopter-name">Adopter Name</label>
+            <input type="text" class="form-control" id="adopter-name" placeholder="Adopter Name">
+          </div>
+          <div class="form-group">
+            <label for="adopter-email">Adopter Email Address</label>
+            <input type="email" class="form-control" id="adopter-email" placeholder="name@example.com">
+          </div>
+          <div class="form-group">
+            <label for="adopter-address">Adopter Address</label>
+            <textarea class="form-control" id="pet-description" rows="5"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="residence-type">Type of Residence</label>
+            <select class="form-control" id="residence-type">
+              <option value="1">House w/Yard</option>
+              <option value="2">House W/out Yard</option>
+              <option value="3">Apartment</option>
+              <option value="4">I have some acreage</option>
+              <option value="5">I am homeless</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="desired-adoption">Animal I Want To Adopt:</label>
+            <input type="text" class="form-control" id="desired-adoption" placeholder="Animal Name">
+          </div>
+          <input class="btn btn-primary" type="submit" value="Find Me A Fur Friend">
+        </form>
+      </div><!--close adopter input div-->
+
+    </div><!--closes container-->
   </body>
 </html>
